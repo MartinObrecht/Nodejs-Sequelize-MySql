@@ -1,4 +1,5 @@
 const express = require('express');
+const db = require('./models');
 const cors = require('cors');//estudar sobre middleware
 const app = express();
 
